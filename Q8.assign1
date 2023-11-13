@@ -17,6 +17,5 @@ int main() {
          div=10*div; }
          
     cout<<num%div<<num/div;
-    return 0;
   
  }
