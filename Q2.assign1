@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+  int marks;
+    cout<<"Enter your marks" <<endl;
+    cin>> marks;
+    // 90 excellent
+    // 80-90 good
+    // 70-80 fair
+    // 60-70 meets expectations
+    // <60 below par
+  
+  if(marks>90)
+    {cout<< " Excellent ";}
+  else if (marks<=90 && marks>80)
+    {cout<<"Good ";}
+  else if (marks<=80 && marks>70)
+    {cout<<"Fair ";}
+  else if (marks<=70 && marks>60)
+    {cout <<"Meets expectations ";}
+  else {cout<<"Below par ";}
+    
+}
