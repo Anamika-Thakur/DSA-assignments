@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1, num2;
+    cout<<"Enter two numbers\n";
+    cin>>num1>>num2;
+    int a=max(num1,num2);
+    int b=min(num1,num2);
+
+    //computing hcf
+    for(int i=l; i>=1; i--)
+    {
+        if(b%i==0 && a%i==0)
+        {
+            cout<<"HCF is "<<i<<endl;
+            break;
+        }
+    }
+
+    //computing lcm
+    for(int i=a; ; i++)
+    {
+        if(i%b==0 && i%a==0)
+        {
+            cout<<"LCM is "<<i<<endl;
+            break;
+        }
+    }
+    return 0;
+}
